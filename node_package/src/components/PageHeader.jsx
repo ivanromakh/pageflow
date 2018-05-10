@@ -17,9 +17,9 @@ export default class extends React.Component {
     return (
       <div className="page_header">
         <h2>
-          <span className="tagline">{this.props.page.tagline}</span>
-          <span className="title">{this.props.page.title}</span>
-          <span className="subtitle">{this.props.page.subtitle}</span>
+          <input className="tagline">{this.props.page.tagline}</input>
+          <input className="title">{this.props.page.title}</input>
+          <input className="subtitle">{this.props.page.subtitle}</input>
         </h2>
       </div>
     );
